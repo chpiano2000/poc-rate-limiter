@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "rate-limiter"
+version = "0.1.0"
+description = ""
+authors = ["vochidat0 <dat.usth2000@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.0"
+uvicorn = "^0.27.1"
+redis = "^5.0.1"
+python-dotenv = "^1.0.1"
+pre-commit = "^3.6.2"
+pytest = "^8.0.2"
+fakeredis = "^2.21.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
